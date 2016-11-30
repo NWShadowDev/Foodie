@@ -1,0 +1,57 @@
+.top {
+  width: 50%;
+  height: 500px;
+  float: right;
+  margin: 10px;
+  padding: 5px;
+}
+.taglineTop {
+  position: relative;
+  top: -150px;
+  right: 150px;
+  float: right;
+  background-color: white;
+  padding:5px;
+}
+.taglineBottom {
+  position: relative;
+  float: right;
+  top: -100px;
+  right:-50px;
+  background-color: white;
+  padding: 5px;
+  margin: 15px;
+}
+
+#social li {
+  position: relative;
+  width: 25%;
+  height: 25%;
+  float: right;
+  list-style-type: none;
+}
+
+#pinterest {
+  background-color: red;
+  border: 3px solid white;
+}
+#facebook {
+  background-color: #3B5998;
+  border: 3px solid white;
+}
+#instagram {
+  background-color: pink;
+  border: 3px solid white;
+}
+#twitter {
+  background-color: lightblue;
+  border: 3px solid white;
+}
+
+#signUp {
+  float: left;
+  margin-left: 50%;
+}
+
+#gallery {
+  float: left;
