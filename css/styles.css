@@ -1,6 +1,13 @@
-
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 .container {
-  border: 1px dotted black;
+  border: 2px dotted black;
+  background-color: #ccc;
 }
 
 .logoimg {
@@ -9,19 +16,22 @@
   width: 20%;
   border-radius: 10px;
   padding: 5px;
-  top: 0px;
+  top: 15px;
 }
 .jumbotron {
   background-color: white;
+  padding: 0;
+  position: relative;
+  background-color: transparent;
+  top: -470px;
+  left: 150px;
 }
 .jumbotron img {
   width: 90%;
   height: 50%;
   border-radius: 50px;
-  position: relative;
-  top: -520px;
-  left: 150px;
   padding: 10px;
+  border: 5px solid black;
 }
 
 .taglineTop {
@@ -49,6 +59,7 @@
 
 #social {
   position: relative;
+  top: 15px;
   bottom: 0px;
   width: 100%;
 }
@@ -66,13 +77,14 @@
 }
 .input-group {
   position: relative;
-  top: -835px;
+  top: -618px;
   float: right;
   width: 400px;
+  padding: 5px;
 }
 #signUp {
   position: relative;
-  top: -800px;
+  top: -582px;
   left: 450px;
   width: 200px;
   padding: 2px;
@@ -80,20 +92,34 @@
 .row {
   float: right;
   margin: 0;
-  margin-top: -85%;
-  width: 60%;
+  margin-top: -65%;
+  background-color: white;
 }
 
+.row h3 {
+  margin-top: 5%;
+  text-align: center;
+  font-family:serif;
+}
 
 .row img {
-  display: inline-block;
+  /*display: inline-block;*/
   float: right;
   border-radius: 15px;
+  border: 5px solid black;
+}
+
+.row img:hover {
+  opacity: 0.7;
 }
 
 .col-sm-3 {
-  padding: 10px;
-  margin: 50px;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.col-sm-3 p {
+  text-align: center;
 }
 
 .list-group {
