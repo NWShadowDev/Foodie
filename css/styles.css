@@ -125,10 +125,40 @@
 .list-group {
   width: 20%;
   height: 10%;
-  margin-top: 10%;
+  margin-top: 8%;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  font-weight: bold;
+  text-align: center;
 }
 
-.list-group-item {
+#orange {
+  background-image: url('../img/orange.jpg');
+  background-size: cover;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+}
 
+#red {
+  background-image: url('../img/red.jpg');
+  background-size: cover;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+}
+#purple {
+  background-image: url('../img/purple.jpg');
+  background-size: cover;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+}
+#green {
+  background-image: url('../img/green.jpg');
+  background-size: cover;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
 }
 /*pseudo classes*/
